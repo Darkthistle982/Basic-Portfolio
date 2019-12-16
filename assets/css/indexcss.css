@@ -12,9 +12,24 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 200px;
     padding: 20px;
-    margin: 0px;
-    position: relative;
-    bottom: 5px;
+    margin: 0px;  
+    float: left;  
+}
+
+#about {
+    float: right;
+}
+
+#portfolio {
+    float: right;
+}
+
+#contact {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
 }
 
 hr {
