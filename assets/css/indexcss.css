@@ -12,6 +12,9 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 200px;
     padding: 20px;
+    margin: 0px;
+    position: relative;
+    bottom: 5px;
 }
 
 hr {
@@ -23,4 +26,9 @@ hr {
 #profilepic {
     float: left;
     margin: 10px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
