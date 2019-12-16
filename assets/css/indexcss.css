@@ -16,16 +16,22 @@ h1 {
     float: left;  
 }
 
+#contact {
+    float: right;
+    color: #777777;
+    margin: 30px;
+}
+
 #about {
     float: right;
+    color: #777777;
+    margin: 30px;
 }
 
 #portfolio {
     float: right;
-}
-
-#contact {
-    float: right;
+    color: #777777;
+    margin: 30px;
 }
 
 .clearfix {
