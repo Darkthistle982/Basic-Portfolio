@@ -86,7 +86,9 @@ textarea {
     height: 200px;
 }
 
-
+input {
+    color: #777777;
+}
 hr {
     width: 100%;
     height: 1px;
