@@ -88,6 +88,8 @@ hr {
 #profilepic {
     float: left;
     margin-right: 15px;
+    width: 200px;
+    height: 200px;
 }
 
 h2 {
