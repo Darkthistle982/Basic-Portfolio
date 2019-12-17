@@ -8,38 +8,50 @@ body {
     margin-right: 20%;
     margin-left: 20%;
     margin-top: 0px;
+    height: 80px;
 }
 
 h1 {
     background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 200px;
+    width: 220px;
+    height: 60px;
     padding: 20px;
     float: left;  
     text-align: center;
-
+    margin-top: 0px;
+    
 }
 
-#contact {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
     float: right;
+    border-left: 1px solid #777777;
+}
+
+li:last-child {
+    border-left: none;
+}
+
+li a {
+    display: block;
     color: #777777;
-    margin: 30px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-#about {
-    float: right;
-    color: #777777;
-    margin: 30px;
-    text-decoration: none;
-}
-
-#portfolio {
-    float: right;
-    color: #777777;
-    margin: 30px;
-    text-decoration: none;
+li a:hover {
+    background-color: #777777;
+    color: #ffffff;
 }
 
 .clearfix {
