@@ -86,17 +86,18 @@ hr {
     background: gray;
 }
 
-#profilepic {
-    float: left;
-    margin-right: 15px;
-    width: 200px;
-    height: 200px;
-}
-
 h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.hangman {
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+}
+
 
 .footer {
     border-top: 8px solid #4aaaa5;
