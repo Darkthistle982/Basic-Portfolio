@@ -87,11 +87,6 @@ hr {
     background: gray;
 }
 
-h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .hangman {
     float: left;
     padding: 15px;
@@ -105,7 +100,7 @@ h2 {
 }
 
 #hangtext {
-    position: ;
+    position: fixed;
     width: 250px;
     padding: 20px;
     background-color: #4aaaa5;
