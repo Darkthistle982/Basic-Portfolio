@@ -107,7 +107,7 @@ hr {
 
 .portfoliocard {
     float: left;
-    margin: 10px 80px 10px 35px;
+    margin: 5px 35px 0px 35px;
 }
 
     .portfoliocard img {
@@ -116,10 +116,10 @@ hr {
     }
 
     .portfoliocard h2 {
-        padding: 6px 0 6px 0;
+        padding: 8px 0 8px 0;
         margin: 0;
         position: relative;
-        top: -50px;
+        top: -55px;
     }
 
 .footer {
