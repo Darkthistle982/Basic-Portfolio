@@ -73,12 +73,13 @@ li a:hover {
     top: 90px;
     border-color: #dddddd;
     width: 960px;
-    height: 600px;
+    height: 820px;
     margin-left: 20%;
     margin-right: 20%;
     border-style: solid;
     padding: 20px;
     background-color: #ffffff;
+    z-index: -1;
 }
 
 #title {
@@ -93,20 +94,20 @@ hr {
 }
 
 .images {
-    width: 250px;
+    width: 260px;
     height: 200px;
 }
 
 .titles {
     background-color: #4aaaa5;
-    width: 250px;
+    width: 260px;
     text-align: center;
     padding: 15px;
 }
 
 .portfoliocard {
     float: left;
-    margin: 10px 35px 10px 35px;
+    margin: 10px 80px 10px 35px;
 }
 
     .portfoliocard img {
@@ -115,8 +116,10 @@ hr {
     }
 
     .portfoliocard h2 {
-        padding: 5px 0 5px 0;
+        padding: 6px 0 6px 0;
         margin: 0;
+        position: relative;
+        top: -50px;
     }
 
 .footer {
