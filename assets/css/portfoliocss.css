@@ -92,6 +92,26 @@ hr {
     height: 200px;
 }
 
+.titles {
+    background-color: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+.portfoliocard {
+    float: left;
+    }
+
+    .portfoliocard img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .portfoliocard h2 {
+        padding: 0;
+        margin: 0;
+    }
 .footer {
     border-top: 8px solid #4aaaa5;
     position: fixed;
