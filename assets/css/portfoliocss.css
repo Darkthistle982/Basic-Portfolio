@@ -87,25 +87,9 @@ hr {
     background: gray;
 }
 
-.hangman {
-    padding: 20px;
-    margin: 20px;
-    width: 50%;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-}
-
-#hangimg {
+.images {
     width: 250px;
     height: 200px;
-    
-}
-
-#hangtext {
-    width: 235px;
-    padding: 15px;
-    background-color: #4aaaa5;
 }
 
 .footer {
