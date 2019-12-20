@@ -88,10 +88,12 @@ hr {
 }
 
 .hangman {
-    float: left;
     padding: 20px;
     margin: 20px;
     width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
 }
 
 #hangimg {
@@ -101,19 +103,27 @@ hr {
 }
 
 #hangtext {
-    position: absolute;
     width: 235px;
     padding: 15px;
     background-color: #4aaaa5;
-    top: 20%;
-    left: 17%;
 }
 
-    .rpg { 
-    float: left;
+    /* .rpg { 
     padding: 15px;
     margin: 20px;
     width: 50%;
+}
+
+#rpgimg {
+    width:  250px;
+    height: 200px;
+
+}
+
+#rpgtxt {
+    width: 235px;
+    padding: 15px;
+    background-color: #4aaaa5; */
 }
 
 /*.trivia {
